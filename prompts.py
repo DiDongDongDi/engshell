@@ -1,12 +1,8 @@
 from keys import OPENAI_KEY
 import platform
-import os
 import getpass
 
-try:
-    USERNAME = os.getlogin()
-except FileNotFoundError:
-    USERNAME = getpass.getuser()
+USERNAME = getpass.getuser()
 
 OPERATING_SYSTEM = platform.system()
 PYTHON_VERSION = platform.python_version()
