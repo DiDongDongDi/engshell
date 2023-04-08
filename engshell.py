@@ -22,7 +22,7 @@ engshell_PREVIX = (
     + Fore.MAGENTA
     + "engshell"
     + Style.RESET_ALL
-    + ">"
+    + " > "
 )
 API_CALLS_PER_MIN = 50
 VERBOSE = False
